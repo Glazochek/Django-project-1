@@ -1,0 +1,142 @@
+    1  apt update
+    2  apt install nginx
+    3  apt install postgresql postgresql-contrib
+    4  apt install python3-venv
+    5  apt install git-core
+    6  nano /etc/postgresql/10/main/pg_hba.conf
+    7  find / | grep pg_hba.conf
+    8  nano /etc/postgresql/12/main/pg_hba.conf
+    9  useradd -g www-data -m django
+   10  cd /home/django/
+   11  git clone git@github.com:Glazochek/Django-project-1.git
+   12  git clone git@github.com:Glazochek/Django-project-1
+   13  git clone git@github.com:Glazochek/Django-project-1.git
+   14  git clone git@github.com:Glazochek/Django-project-1
+   15  ssh-copy-id root@194.67.111.235
+   16  cd ..
+   17  git clone git@github.com:Glazochek/Django-project-1.git
+   18  git clone origin https://github.com/Glazochek/Django-project-1.git
+   19  git clone https://github.com/Glazochek/Django-project-1.git
+   20  cd/home/django/
+   21  useradd -g www-data -m django
+   22  cd/home/django/
+   23  python3 -m venv env
+   24  source env/bin/activate
+   25  pip3 install gunicorn
+   26  ls
+   27  python3 manage.py migrate
+   28  ls
+   29  cd gs-project/
+   30  ls
+   31  cd geekshop/
+   32  ls
+   33  python3 manage.py migrate
+   34  python3 -m venv env
+   35  source env/bin/activate
+   36  pip3 install -r requirements.txt
+   37  cd ..
+   38  pip3 install -r requirements.txt
+   39  pip3 install gunicorn
+   40  python3 manage.py migrate
+   41  ls
+   42  cd geekshop/
+   43  python3 manage.py migrate
+   44  pip3 install social_django
+   45  python3 -m pip install social_django
+   46  python3 -m pip install social-auth-app-django
+   47  python3 manage.py migrate
+   48  python3 manage.py fill_db
+   49  cd /mainapp/management/commands/fill_db.py
+   50  cd mainapp/management/commands/fill_db.py
+   51  find  fill_db.py
+   52  python3 manage.py fill_db.py
+   53  python3 manage.py fill_db
+   54  cd mainapp/management/commands/fill_db.py
+   55  ls
+   56  cd mainapp/
+   57  ls
+   58  cd management/
+   59  ls
+   60  cd commands/
+   61  ls
+   62  cd fill_db.py
+   63  cat fill_db.py
+   64  python3 manage.py fill_db
+   65  cd ../../..
+   66  python3 manage.py fill_db
+   67  cat /usr/lib/python3.8/json/decoder.py
+   68  clear
+   69  python3 manage.py fill_db
+   70  python3 manage.py shell
+   71  python3 manage.py fill_db
+   72  ls
+   73  nona db.sqlite3p
+   74  nano db.sqlite3
+   75  clear
+   76  python3 manage.py fill_db
+   77  python3 manage.py migrate
+   78  python3 manage.py fill_db
+   79  nano db.json
+   80  ls
+   81  cd mainapp/
+   82  ls
+   83  cd management/
+   84  ls
+   85  cd commands/
+   86  ls
+   87  nano fill_db.py
+   88  python3 manage.py fill_db
+   89  cd ../.../..
+   90  cd ../..
+   91  cd ..
+   92  python3 manage.py fill_db
+   93  python3 manage.py migrate
+   94  python3 manage.py fill_db
+   95  python3 manage.py runserver
+   96  cd ../../..
+   97  ls
+   98  cd Django-project-1/
+   99  ls
+  100  cd gs-project/
+  101  ls
+  102  cd ..
+  103  chown -R django gs-project/
+  104  chown -R 755 gs-project/geekshop/
+  105  cd ...
+  106  cd .
+  107  cd //
+  108  cd
+  109  sudo nano /etc/systemd/system/gunicorn.service
+  110  sudo systemctl enable gunicorn
+  111  sudo nano /etc/systemd/system/gunicorn.service
+  112  sudo systemctl enable gunicorn
+  113  sudo nano /etc/systemd/system/gunicorn.service
+  114  sudo systemctl start gunicorn
+  115  sudo systemctl status gunicorn
+  116  sudo systemctl enable gunicorn
+  117  systemctl enable gunicorn
+  118  systemctl link /etc/systemd/system/gunicorn.service
+  119  systemctl enable gunicorn
+  120  systemctl start gunicorn
+  121  systemctl status gunicorn
+  122  nano /etc/nginx/sites-available/geekshop
+  123  ln -s /etc/nginx/sites-available/geekshop /etc/nginx/sites-enabled
+  124  nginx -t
+  125  sudo nginx -t
+  126  systemctl restart nginx
+  127  systemctl status nginx.service
+  128  ln -s /etc/nginx/sites-available/geekshop /etc/nginx/sites-enabled
+  129  nano /etc/nginx/sites-available/geekshop
+  130  sudo nginx -t
+  131  ln -s /etc/nginx/sites-available/geekshop /etc/nginx/sites-enabled
+  132  systemctl restart nginx
+  133  systemctl status nginx.service
+  134  fuser -k 80/tcp
+  135  fuser -k 443/tcp
+  136  systemctl restart nginx
+  137  systemctl status nginx.service
+  138  nano /etc/nginx/sites-available/geekshop
+  139  systemctl restart nginx
+  140  sudo nginx -t
+  141  clear
+  142  history
